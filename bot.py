@@ -2,8 +2,8 @@ from dingtalkchatbot.chatbot import DingtalkChatbot
 from datetime import datetime
 import time
 
-webhook="https://oapi.dingtalk.com/robot/send?access_token=f48c198d47016e649a1741f42b0264f5d863f4574b2e41b3705eabdb9c7869d7"
-secret="SEC87b923af90935ef00fc629de0c906191e6b98eaf1e76305a0ab5d7ec67e7e145"
+webhook=""
+secret=""
 
 bot=DingtalkChatbot(webhook,secret)
 
